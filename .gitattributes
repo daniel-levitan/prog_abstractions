@@ -1,2 +1,2 @@
 Makefile linguist-detectable=false
-
+QMake linguist-detectable=false
