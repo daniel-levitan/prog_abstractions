@@ -1,0 +1,11 @@
+operator<<
+
+Um problema surgiu quando fiz o overload de operator<<. Se eu usasse o objeto MyString como parâmetro, o destrutor gerava um problema de memória. Para corrigir isso, passei o objeto por reference, com &. Não entendi por que.
+
+operator +=
+
+Para fazer o overload de += eu tive de fazer uma cópia do conteúdo numa variável temporária, aumentar o tamanho do char * através de um novo comando new para o novo tamanho, copiei o conteúdo da variável temporária e adicionei o char c. Retornei o ponteiro para this (*this).
+
+operator+
+
+A 

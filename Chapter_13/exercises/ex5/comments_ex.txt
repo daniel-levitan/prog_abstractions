@@ -1,0 +1,1 @@
+I am not going to use the append function here, since I will exhibit text after each command. If I want to have append afterwards, I need to check what's the problem with inserting appended text.
